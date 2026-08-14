@@ -170,4 +170,44 @@ footer nav { display: flex; gap: 18px; font-size: 11px; font-weight: 800; text-t
   footer nav { grid-column: 1 / -1; }
 }
 
+/* Embedded previews can be much narrower than a phone. Preserve actions without clipping. */
+@media (max-width: 240px) {
+  .site-header, .hero, .section, footer { width: calc(100% - 16px); }
+  .site-header { min-height: 60px; gap: 8px; }
+  .brand { min-width: 0; font-size: 0; }
+  .brand strong { font-size: 0; }
+  .brand strong::after { content: "SS"; font-family: var(--serif); font-size: 18px; }
+  .brand span { display: none; }
+  .round-action { width: 42px; height: 42px; padding: 0; font-size: 0; }
+  .round-action span, .round-action b { font-size: 0; }
+  .round-action::after { content: "Book"; font-size: 8px; font-weight: 800; transform: rotate(4deg); }
+  .hero { gap: 16px; grid-template-rows: auto auto 250px; }
+  .hero-title { padding-top: 22px; }
+  .overline { font-size: 8px; }
+  .hero h1, .section-title h2, .approach h2, .profile-intro h2, .notes-heading h2, .contact h2 { font-size: 34px; }
+  .hero-intro { font-size: 12px; }
+  .hero-figure { height: 250px; border-radius: 32px 0 0 0; }
+  .hero-figure figcaption { right: 8px; bottom: 8px; left: 8px; padding: 8px 10px; }
+  .hero-figure figcaption b { font-size: 16px; }
+  .hero-note { right: 8px; bottom: 12px; width: calc(100% - 16px); padding: 10px; font-size: 10px; }
+  .hero-stamp { width: 56px; height: 56px; left: 8px; bottom: 12px; }
+  .hero-stamp strong { font-size: 9px; }
+  .section { padding: 56px 0; }
+  summary { grid-template-columns: 24px minmax(0, 1fr) 18px; gap: 5px; min-height: 62px; }
+  summary i { width: 18px; font-size: 16px; overflow: hidden; }
+  summary strong { font-size: 18px; }
+  .choice-content { padding: 0 0 22px 29px; }
+  .approach-visual { min-height: 280px; }
+  .approach-copy { padding: 42px 16px; }
+  .credential-stack article { grid-template-columns: 44px minmax(0, 1fr); gap: 8px; padding: 20px 0; }
+  .credential-stack article > span { width: 38px; height: 38px; font-size: 10px; }
+  .credential-stack h3, .note-grid h3 { font-size: 21px; }
+  .note-grid { margin-top: 26px; }
+  .note-grid a { min-height: 180px; padding: 16px; }
+  .contact { min-height: 0; padding: 52px 16px; }
+  .contact-details a { font-size: 14px; }
+  footer { padding: 38px 0; grid-template-columns: 1fr; }
+  h1, h2, h3, p, a, strong, span, small { overflow-wrap: anywhere; }
+}
+
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

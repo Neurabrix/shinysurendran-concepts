@@ -166,4 +166,37 @@ footer nav { display: flex; gap: 20px; font-size: 11px; font-weight: 800; text-t
   footer nav { grid-column: 1 / -1; }
 }
 
+/* Embedded previews can be much narrower than a phone. Preserve actions without clipping. */
+@media (max-width: 240px) {
+  .site-header { height: 56px; padding-inline: 8px; gap: 8px; }
+  .monogram { width: 34px; height: 34px; flex: 0 0 34px; font-size: 12px; }
+  .top-action { min-height: 34px; padding: 0 7px; font-size: 0; }
+  .top-action::after { content: "Book"; font-size: 9px; }
+  .hero { min-height: 600px; }
+  .hero-content { width: calc(100% - 16px); padding-top: 56px; }
+  .signal { gap: 7px; font-size: 8px; }
+  .hero h1, .program-heading h2, .profile-copy h2, .media-heading h2, .method h2, .cta h2 { font-size: 34px; }
+  .hero-content > p:not(.signal) { font-size: 12px; }
+  .hero-actions { gap: 10px; }
+  .button { min-height: 40px; padding: 0 9px; gap: 7px; font-size: 9px; }
+  .play-link { gap: 8px; font-size: 9px; }
+  .play-link i { width: 26px; height: 26px; }
+  .hero-stat { right: 8px; bottom: 16px; max-width: calc(100% - 16px); padding: 10px; gap: 8px; font-size: 9px; }
+  .hero-stat strong { font-size: 24px; }
+  .proof-strip, .method, .cta, footer { padding-inline: 8px; }
+  .proof-strip { padding-block: 24px; }
+  .section { width: calc(100% - 16px); padding: 56px 0; }
+  .program-track { margin-right: 0; grid-template-columns: 1fr; overflow: visible; }
+  .program-card { min-height: 260px; padding: 16px; }
+  .card-blue .line-icon { width: 96px; height: 96px; margin-top: 28px; font-size: 44px; }
+  .method { padding-block: 56px; }
+  .profile-photo, .profile-photo img { min-height: 260px; height: 260px; }
+  .media-list a { grid-template-columns: minmax(0, 1fr) 20px; gap: 6px; }
+  .media-list strong { font-size: 18px; }
+  .cta { min-height: 400px; padding-block: 56px; }
+  footer { padding-block: 38px; grid-template-columns: 1fr; }
+  footer nav { gap: 10px; }
+  h1, h2, h3, p, a, strong, span, small { overflow-wrap: anywhere; }
+}
+
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

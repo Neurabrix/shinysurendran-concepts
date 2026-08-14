@@ -154,6 +154,36 @@ footer address { color: #5e5b62; font-size: 14px; font-style: normal; }
   footer { padding: 52px 0; grid-template-columns: 1fr; }
 }
 
+/* Embedded previews can be much narrower than a phone. Preserve actions without clipping. */
+@media (max-width: 240px) {
+  .site-header, .hero, .section, footer { width: calc(100% - 16px); }
+  .site-header { min-height: 58px; gap: 8px; }
+  .brand { min-width: 0; max-width: calc(100% - 46px); }
+  .brand span { font-size: 0; white-space: nowrap; }
+  .brand span::after { content: "SS"; font-family: var(--serif); font-size: 18px; font-weight: 700; }
+  .brand small { display: none; }
+  .header-cta { min-height: 36px; padding: 0 7px; font-size: 0; }
+  .header-cta::after { content: "Book"; font-size: 9px; }
+  .hero { margin-top: 4px; border-radius: 12px; }
+  .hero-copy { padding: 28px 16px; }
+  .hero h1, .about h2, .expertise-intro h2, .process-heading h2, .insights-heading h2, .contact h2 { font-size: 34px; }
+  .eyebrow, .lead, .hero-proof, .trust-rail { font-size: 10px; }
+  .lead { margin: 18px 0; }
+  .button { min-height: 40px; padding: 0 9px; gap: 7px; font-size: 10px; }
+  .hero-proof { margin-top: 22px; padding-top: 16px; }
+  .portrait-wrap { min-height: 250px; }
+  .credential-card { width: calc(100% - 24px); top: 12px; left: 12px; padding: 12px; }
+  .credential-card p { font-size: 11px; }
+  .trust-rail { margin-top: 16px; padding: 12px 8px; }
+  .trust-rail { justify-content: flex-start; flex-wrap: wrap; gap: 6px; overflow: visible; white-space: normal; }
+  .section { padding: 56px 0; }
+  .service-card, .insight-grid a { min-height: 190px; padding: 16px; }
+  .process-list li { grid-template-columns: 28px minmax(0, 1fr); gap: 8px; }
+  .contact { padding: 52px 16px; }
+  footer { padding: 38px 0; }
+  h1, h2, h3, p, a, strong, span, small { overflow-wrap: anywhere; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; }
