@@ -1,0 +1,45 @@
+{
+  "artifact_id": "public-search-ledger-2026-08-14",
+  "retrieved_at": "2026-08-14",
+  "subject": "Shiny Surendran, sports and preventive nutritionist, Chennai",
+  "queries": [
+    "\"Shiny Surendran\" nutritionist Chennai",
+    "\"Shiny Surendran\" sports nutrition",
+    "\"Shiny Surendran\" dietitian",
+    "\"Shiny Surendran\" nutrition"
+  ],
+  "identity_threshold": "Exact name plus at least two corroborating signals; source must be public and credible.",
+  "included": [
+    {
+      "source_url": "https://asnfs.org/about/",
+      "publisher": "Association of Sports, Nutrition and Fitness Sciences (ASNFS)",
+      "fact": "Lists Ms. Shiny Surendran as a Sports and Preventive Nutritionist with an MSc and IOC Diploma in Sports Nutrition.",
+      "identity_match": ["exact name", "matching specialty", "IOC diploma", "links to shinysurendran.com"],
+      "disposition": "Linked in every concept's Public documentation section"
+    },
+    {
+      "source_url": "https://asnfs.org/wp-content/uploads/Batch-6-Faculty-Brochure-2025.pdf",
+      "publisher": "ASNFS, Sports Specific Nutrition Management faculty brochure (2025)",
+      "fact": "Names Shiny Surendran as Preventive and Sports Nutritionist and faculty for Nutrition for Racket Sports (Tennis).",
+      "identity_match": ["exact name", "matching specialty", "IOC diploma", "Masters in Dietetics and Food Service, Women's Christian College, Chennai"],
+      "disposition": "Linked in every concept's Public documentation section"
+    },
+    {
+      "source_url": "https://digicampus.sriramachandra.edu.in/uploads/iqac_workshopconducts/2025-07-11011235FINAL%20PROGRAM.pdf",
+      "publisher": "Sri Ramachandra Centre for Sports Science, Sports Science Conference 2025 programme",
+      "fact": "Names Shiny Surendran, Preventive Health & Sports Dietitian at AOE clinic, as a resource person and a chair for the Champions & Coaches panel.",
+      "identity_match": ["exact name", "matching preventive and sports dietitian specialty", "AOE clinic affiliation", "Chennai sports science conference"],
+      "disposition": "Linked in every concept's Public documentation section"
+    }
+  ],
+  "excluded": [
+    {
+      "source_type": "appointment directories and review pages",
+      "reason": "Potentially stale or conflicting details, and no directory claim is needed for this review profile."
+    },
+    {
+      "source_type": "search-result snippets, unverified social posts, and testimonials",
+      "reason": "Insufficient primary-source provenance or requires separate client approval."
+    }
+  ]
+}

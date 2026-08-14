@@ -101,6 +101,7 @@ blockquote { margin: 32px 0; padding: 24px 0 24px 28px; border-left: 4px solid v
 .media-heading { margin-top: 34px; display: grid; grid-template-columns: 1fr 1fr; align-items: end; }
 .media-heading h2 { font-size: clamp(56px, 7vw, 104px); }
 .media-heading p { max-width: 340px; margin: 0 0 12px auto; color: var(--muted); }
+.public-record .media-heading h2 { overflow-wrap: anywhere; }
 .media-list { margin-top: 64px; border-top: 1px solid #26324a; }
 .media-list a { min-height: 116px; padding: 20px 0; display: grid; grid-template-columns: .25fr 1fr 40px; gap: 30px; align-items: center; border-bottom: 1px solid #26324a; }
 .media-list a:hover strong { color: var(--lime); }
@@ -186,6 +187,8 @@ footer nav { display: flex; gap: 20px; font-size: 11px; font-weight: 800; text-t
   .proof-strip, .method, .cta, footer { padding-inline: 8px; }
   .proof-strip { padding-block: 24px; }
   .section { width: calc(100% - 16px); padding: 56px 0; }
+  .public-record .kicker { justify-content: flex-start; gap: 5px; font-size: 8px; letter-spacing: .06em; }
+  .public-record .kicker span { flex: 0 0 auto; font-size: 7px; }
   .program-track { margin-right: 0; grid-template-columns: 1fr; overflow: visible; }
   .program-card { min-height: 260px; padding: 16px; }
   .card-blue .line-icon { width: 96px; height: 96px; margin-top: 28px; font-size: 44px; }
