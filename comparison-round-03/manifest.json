@@ -1,0 +1,34 @@
+{
+  "artifact_id": "comparison-round-03",
+  "artifact_kind": "concept-comparison",
+  "version": null,
+  "concept_id": null,
+  "parent": ["comparison-round-02", "concept-04", "concept-05", "concept-06"],
+  "status": "client-review-preview",
+  "source_snapshot": "shinysurendran.com and drdurairajarjunan.com inspected 2026-08-14",
+  "template_id": "comparison-package",
+  "template_version": "3.0.0",
+  "generated_at": "2026-08-14T09:52:23Z",
+  "changes": "Added three immutable successor concepts that apply provider-profile principles: first-viewport proof and action, separate sticky contact controls, persistent mobile actions, appointment context, progressive trust and service hierarchy, responsive content/action parity, shallow surfaces, and preview-safe metadata. Client-readiness audit completed with narrow-layout hardening for concept-06 and a content-first mobile-browser hero correction for concept-04. All six concepts now have an ultra-narrow embedded-browser compact mode and high-confidence independent public documentation links; the presentation and concepts were revalidated at 1440 px, 390 px, and 138 px. The live comparison now treats screenshots only as desktop thumbnails: every thumbnail and primary action opens its working responsive website, with sources available as a secondary live link.",
+  "mandatory_gate": "passed-for-public-client-review; not a production release",
+  "validation": {
+    "desktop_1440": "passed",
+    "mobile_390": "passed",
+    "embedded_138": "passed across concept-01 through concept-06; no horizontal overflow, clipped wordmarks, or inaccessible booking actions",
+    "document_overflow": "none",
+    "links_and_images": "passed",
+    "console": "no errors",
+    "small_320": "passed",
+    "live_deployment": "passed",
+    "mobile_first_viewport": "passed"
+  },
+  "drive_project_folder_url": "https://drive.google.com/drive/folders/1tQ2Vxl4XatTg9dKCQ11RwbnoEtiuIlRv",
+  "state_document_url": "https://docs.google.com/document/d/1bSOih19umpGJ0Gm9CbymcV2Avzb5cdlEqz5G207gMX8",
+  "publication": {
+    "authority": "User authorized lightweight client-viewable hosting on 2026-08-14",
+    "destination": "GitHub Pages",
+    "live_url": "https://neurabrix.github.io/shinysurendran-concepts/",
+    "commit_sha": "2cf8e6e"
+  },
+  "artifact_paths": ["index.html", "robots.txt", "comparison-round-03/index.html", "comparison-round-03/manifest.json", "public-search-ledger-2026-08-14.json", "previews/comparison-round-03--desktop-1440.png", "previews/comparison-round-03--mobile-390.png"]
+}
