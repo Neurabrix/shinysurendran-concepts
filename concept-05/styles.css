@@ -103,7 +103,7 @@ blockquote { margin: 32px 0; padding: 24px 0 24px 28px; border-left: 4px solid v
 .media-heading p { max-width: 340px; margin: 0 0 12px auto; color: var(--muted); }
 .public-record .media-heading h2 { overflow-wrap: anywhere; }
 .media-list { margin-top: 64px; border-top: 1px solid #26324a; }
-.media-list a { min-height: 116px; padding: 20px 0; display: grid; grid-template-columns: .25fr 1fr 40px; gap: 30px; align-items: center; border-bottom: 1px solid #26324a; }
+.media-list :is(a, article) { min-height: 116px; padding: 20px 0; display: grid; grid-template-columns: .25fr 1fr 40px; gap: 30px; align-items: center; border-bottom: 1px solid #26324a; }
 .media-list a:hover strong { color: var(--lime); }
 .media-list span { color: #6f92ff; font-size: 10px; font-weight: 800; text-transform: uppercase; }
 .media-list strong { font-family: var(--display); font-size: clamp(22px, 3vw, 38px); line-height: 1; text-transform: uppercase; transition: color .2s ease; }
@@ -159,7 +159,7 @@ footer nav { display: flex; gap: 20px; font-size: 11px; font-weight: 800; text-t
   .method h2 { font-size: 50px; }
   .profile { gap: 54px; }
   .profile-photo, .profile-photo img { min-height: 480px; height: 480px; }
-  .media-list a { grid-template-columns: 1fr 30px; gap: 12px; }
+  .media-list :is(a, article) { grid-template-columns: 1fr 30px; gap: 12px; }
   .media-list span { grid-column: 1 / -1; }
   .cta { min-height: 560px; padding: 80px 16px; }
   .cta h2 { font-size: 70px; }
@@ -194,7 +194,7 @@ footer nav { display: flex; gap: 20px; font-size: 11px; font-weight: 800; text-t
   .card-blue .line-icon { width: 96px; height: 96px; margin-top: 28px; font-size: 44px; }
   .method { padding-block: 56px; }
   .profile-photo, .profile-photo img { min-height: 260px; height: 260px; }
-  .media-list a { grid-template-columns: minmax(0, 1fr) 20px; gap: 6px; }
+  .media-list :is(a, article) { grid-template-columns: minmax(0, 1fr) 20px; gap: 6px; }
   .media-list strong { font-size: 18px; }
   .cta { min-height: 400px; padding-block: 56px; }
   footer { padding-block: 38px; grid-template-columns: 1fr; }

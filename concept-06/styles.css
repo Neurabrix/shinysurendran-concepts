@@ -105,9 +105,9 @@ details[open] summary i { transform: rotate(45deg); }
 .notes-heading { display: flex; justify-content: space-between; align-items: end; }
 .notes-heading h2 { font-size: clamp(58px, 7vw, 94px); }
 .note-grid { margin-top: 58px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
-.note-grid a { min-height: 330px; padding: 28px; display: flex; flex-direction: column; background: var(--white); border: 1px solid var(--line); transition: transform .2s ease, background .2s ease; }
-.note-grid a:nth-child(2) { background: var(--yellow); }
-.note-grid a:nth-child(3) { background: var(--mint); }
+.note-grid :is(a, article) { min-height: 330px; padding: 28px; display: flex; flex-direction: column; background: var(--white); border: 1px solid var(--line); transition: transform .2s ease, background .2s ease; }
+.note-grid :is(a, article):nth-child(2) { background: var(--yellow); }
+.note-grid :is(a, article):nth-child(3) { background: var(--mint); }
 .note-grid a:hover { transform: rotate(-1deg) translateY(-5px); }
 .note-grid span { color: var(--coral-text); font-size: 10px; font-weight: 800; text-transform: uppercase; }
 .note-grid h3 { margin: auto 0; font-family: var(--serif); font-size: 34px; line-height: 1.05; }

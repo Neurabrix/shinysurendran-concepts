@@ -586,6 +586,8 @@
 
   .provider-disclosure-body ul { padding-left: 14px; }
 
+  .provider-disclosure-body li { overflow-wrap: anywhere; }
+
   .provider-proof-grid article { padding: 16px; }
 
   .provider-proof-grid { grid-template-columns: minmax(0, 1fr); }

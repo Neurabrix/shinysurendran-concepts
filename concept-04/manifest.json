@@ -1,0 +1,38 @@
+{
+  "artifact_id": "concept-04",
+  "artifact_kind": "website-concept",
+  "version": null,
+  "concept_id": "concept-04",
+  "parent": "concept-01",
+  "status": "candidate",
+  "hypothesis": "A refined editorial profile with persistent contact, complete service hierarchy, appointment context, and deeper verified experience will preserve premium authority while making the path to consultation easier.",
+  "source_snapshot": "shinysurendran.com and drdurairajarjunan.com inspected 2026-08-14",
+  "template_id": "editorial-provider-profile",
+  "template_version": "2.0.0",
+  "template_provenance": ["concept-01", "https://www.sehatplus.in", "https://www.rashmicherian.com", "https://drdurairajarjunan.com"],
+  "generated_at": "2026-08-14T09:52:23Z",
+  "changes": "Successor to concept-01. Added provider-profile contact architecture, verified map route, mobile action bar, full consultation hierarchy, selected assignments and honorary positions, appointment context, noindex preview metadata, and shared surface rules. Mobile-browser correction: preserved the content-first hero order at narrow and tablet widths so identity, value, consultation action, and proof appear before the portrait. Added an ultra-narrow embedded-browser compact mode that preserves contact and booking controls without clipping branding or labels. Added high-confidence independent public documentation links. Replacement-site correction: migrated the complete approved profile into an internal disclosure section and removed visitor-facing legacy profile, media, blog and article destinations.",
+  "provider_principles": {
+    "first_viewport_identity_proof_action": "adopt",
+    "separate_contact_and_section_navigation": "adapt",
+    "persistent_mobile_action": "adopt",
+    "appointment_context": "adopt",
+    "compact_then_detailed_trust_proof": "adopt",
+    "hierarchical_services": "adopt",
+    "evidence_paths": "adapt",
+    "shallow_surfaces": "adopt",
+    "desktop_mobile_parity": "adopt",
+    "aligned_production_metadata": "adapt-for-noindex-preview"
+  },
+  "content_coverage": {
+    "included": ["identity", "complete approved professional profile", "key credentials", "service catalogue", "consultation journey", "complete career assignments", "honorary positions", "contact", "map", "on-page library topics"],
+    "deferred": ["confirmed pricing", "approved testimonials and reviews", "team biographies", "full internal media archive"],
+    "blocked": ["legacy team page due compromised content"]
+  },
+  "mandatory_gate": "passed-for-client-review",
+  "public_search_ledger_path": "public-search-ledger-2026-08-14.json",
+  "validation": {"desktop_1440": "passed", "mobile_390": "passed", "embedded_138": "passed; compact SS mark, contact grid, and stacked mobile actions remain usable", "mobile_first_viewport": "passed", "document_overflow": "none", "links_images_focus_contrast": "passed", "console": "no errors"},
+  "drive_project_folder_url": "https://drive.google.com/drive/folders/1tQ2Vxl4XatTg9dKCQ11RwbnoEtiuIlRv",
+  "state_document_url": "https://docs.google.com/document/d/1bSOih19umpGJ0Gm9CbymcV2Avzb5cdlEqz5G207gMX8",
+  "artifact_paths": ["concept-04/index.html", "concept-04/styles.css", "assets/provider-profile.css", "public-search-ledger-2026-08-14.json", "previews/concept-04--desktop-1440.png", "previews/concept-04--mobile-390.png", "previews/concept-04--embedded-138.png"]
+}

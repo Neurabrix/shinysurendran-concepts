@@ -1,0 +1,38 @@
+{
+  "artifact_id": "concept-05",
+  "artifact_kind": "website-concept",
+  "version": null,
+  "concept_id": "concept-05",
+  "parent": "concept-02",
+  "status": "candidate",
+  "hypothesis": "A performance-first profile can retain athletic energy while adding complete service discovery, professional proof, and persistent low-friction appointment actions.",
+  "source_snapshot": "shinysurendran.com and drdurairajarjunan.com inspected 2026-08-14",
+  "template_id": "performance-provider-profile",
+  "template_version": "2.0.0",
+  "template_provenance": ["concept-02", "https://www.rashmicherian.com", "https://www.sehatplus.in", "https://drdurairajarjunan.com"],
+  "generated_at": "2026-08-14T09:52:23Z",
+  "changes": "Successor to concept-02. Added provider-profile contact architecture, verified map route, mobile action bar, complete service map, selected professional track record, appointment context, noindex preview metadata, and shared surface rules. Added an ultra-narrow embedded-browser compact mode that preserves contact and booking controls without clipping. Added high-confidence independent public documentation links. Replacement-site correction: migrated the complete approved profile into an internal disclosure section and removed visitor-facing legacy profile, process, media, blog and article destinations.",
+  "provider_principles": {
+    "first_viewport_identity_proof_action": "adopt",
+    "separate_contact_and_section_navigation": "adapt",
+    "persistent_mobile_action": "adopt",
+    "appointment_context": "adopt",
+    "compact_then_detailed_trust_proof": "adopt",
+    "hierarchical_services": "adopt",
+    "evidence_paths": "adapt",
+    "shallow_surfaces": "adapt-to-athletic-system",
+    "desktop_mobile_parity": "adopt",
+    "aligned_production_metadata": "adapt-for-noindex-preview"
+  },
+  "content_coverage": {
+    "included": ["identity", "complete approved professional profile", "key credentials", "service catalogue", "consultation journey", "complete career assignments", "honorary positions", "contact", "map", "on-page library topics"],
+    "deferred": ["confirmed pricing", "approved testimonials and reviews", "team biographies", "full internal media archive"],
+    "blocked": ["legacy team page due compromised content"]
+  },
+  "mandatory_gate": "passed-for-client-review",
+  "public_search_ledger_path": "public-search-ledger-2026-08-14.json",
+  "validation": {"desktop_1440": "passed", "mobile_390": "passed", "embedded_138": "passed; compact monogram, contact grid, and stacked mobile actions remain usable", "document_overflow": "none", "links_images_focus_contrast": "passed", "console": "no errors"},
+  "drive_project_folder_url": "https://drive.google.com/drive/folders/1tQ2Vxl4XatTg9dKCQ11RwbnoEtiuIlRv",
+  "state_document_url": "https://docs.google.com/document/d/1bSOih19umpGJ0Gm9CbymcV2Avzb5cdlEqz5G207gMX8",
+  "artifact_paths": ["concept-05/index.html", "concept-05/styles.css", "assets/provider-profile.css", "public-search-ledger-2026-08-14.json", "previews/concept-05--desktop-1440.png", "previews/concept-05--mobile-390.png", "previews/concept-05--embedded-138.png"]
+}

@@ -1,0 +1,38 @@
+{
+  "artifact_id": "concept-06",
+  "artifact_kind": "website-concept",
+  "version": null,
+  "concept_id": "concept-06",
+  "parent": "concept-03",
+  "status": "candidate",
+  "hypothesis": "A warmer goal-led profile with complete service disclosure, first-viewport proof, professional experience, and persistent appointment actions will serve the broadest mixed audience.",
+  "source_snapshot": "shinysurendran.com and drdurairajarjunan.com inspected 2026-08-14",
+  "template_id": "service-led-provider-profile",
+  "template_version": "2.0.0",
+  "template_provenance": ["concept-03", "https://www.sehatplus.in", "https://www.rashmicherian.com", "https://drdurairajarjunan.com"],
+  "generated_at": "2026-08-14T09:52:23Z",
+  "changes": "Successor to concept-03. Added first-viewport credential proof, provider-profile contact architecture, verified map route, mobile action bar, expanded condition hierarchy, selected experience, appointment context, noindex preview metadata, and shared surface rules. Client-readiness audit correction: hardened narrow-grid sizing and long credential wrapping at 320 px without changing the design or content. Added an ultra-narrow embedded-browser compact mode that preserves contact and booking controls without clipping. Added high-confidence independent public documentation links. Replacement-site correction: migrated the complete approved profile into an internal disclosure section and removed visitor-facing legacy profile, media, blog and article destinations.",
+  "provider_principles": {
+    "first_viewport_identity_proof_action": "adopt",
+    "separate_contact_and_section_navigation": "adapt",
+    "persistent_mobile_action": "adopt",
+    "appointment_context": "adopt",
+    "compact_then_detailed_trust_proof": "adopt",
+    "hierarchical_services": "adopt",
+    "evidence_paths": "adapt",
+    "shallow_surfaces": "adopt",
+    "desktop_mobile_parity": "adopt",
+    "aligned_production_metadata": "adapt-for-noindex-preview"
+  },
+  "content_coverage": {
+    "included": ["identity", "complete approved professional profile", "key credentials", "service catalogue", "consultation journey", "complete career assignments", "honorary positions", "contact", "map", "on-page library topics"],
+    "deferred": ["confirmed pricing", "approved testimonials and reviews", "team biographies", "full internal media archive"],
+    "blocked": ["legacy team page due compromised content"]
+  },
+  "mandatory_gate": "passed-for-client-review",
+  "public_search_ledger_path": "public-search-ledger-2026-08-14.json",
+  "validation": {"desktop_1440": "passed", "mobile_390": "passed", "small_320": "passed", "embedded_138": "passed; compact SS mark, contact grid, and stacked mobile actions remain usable", "document_overflow": "none", "links_images_focus_contrast": "passed", "console": "no errors"},
+  "drive_project_folder_url": "https://drive.google.com/drive/folders/1tQ2Vxl4XatTg9dKCQ11RwbnoEtiuIlRv",
+  "state_document_url": "https://docs.google.com/document/d/1bSOih19umpGJ0Gm9CbymcV2Avzb5cdlEqz5G207gMX8",
+  "artifact_paths": ["concept-06/index.html", "concept-06/styles.css", "assets/provider-profile.css", "public-search-ledger-2026-08-14.json", "previews/concept-06--desktop-1440.png", "previews/concept-06--mobile-390.png", "previews/concept-06--embedded-138.png"]
+}
