@@ -88,15 +88,17 @@ details[open] summary i { transform: rotate(45deg); }
 .journey h3 { margin: auto 0 14px; font-family: var(--serif); font-size: 31px; }
 .journey li p { margin: 0; color: var(--muted); font-size: 13px; }
 
-.profile { display: grid; grid-template-columns: .95fr 1.05fr; gap: 100px; align-items: start; border-top: 1px solid var(--line); }
+.profile { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: 100px; align-items: start; border-top: 1px solid var(--line); }
+.profile > * { min-width: 0; }
 .profile-intro { position: sticky; top: 30px; }
 .profile-intro h2 { font-size: clamp(52px, 5vw, 76px); }
 .profile-intro > p:not(.overline) { max-width: 520px; color: var(--muted); }
 .button { min-height: 54px; padding: 0 24px; display: inline-flex; justify-content: center; align-items: center; gap: 30px; border-radius: 999px; background: var(--coral); color: var(--plum); font-size: 12px; font-weight: 800; }
 .credential-stack { border-top: 1px solid var(--line); }
-.credential-stack article { padding: 34px 0; display: grid; grid-template-columns: 92px 1fr; gap: 20px; border-bottom: 1px solid var(--line); }
+.credential-stack article { padding: 34px 0; display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 20px; border-bottom: 1px solid var(--line); }
+.credential-stack article > div { min-width: 0; }
 .credential-stack article > span { width: 68px; height: 68px; display: grid; place-items: center; border-radius: 50%; background: var(--mint); color: var(--plum); font-family: var(--serif); font-size: 18px; }
-.credential-stack h3 { margin: 0 0 8px; font-family: var(--serif); font-size: 30px; }
+.credential-stack h3 { margin: 0 0 8px; overflow-wrap: anywhere; font-family: var(--serif); font-size: 30px; }
 .credential-stack p { margin: 0; color: var(--muted); }
 
 .notes { border-top: 1px solid var(--line); }
@@ -160,7 +162,7 @@ footer nav { display: flex; gap: 18px; font-size: 11px; font-weight: 800; text-t
   .approach-copy { padding: 72px 24px; }
   .journey ol { grid-template-columns: 1fr; }
   .journey li { min-height: 210px; }
-  .credential-stack article { grid-template-columns: 74px 1fr; }
+  .credential-stack article { grid-template-columns: 68px minmax(0, 1fr); }
   .note-grid { grid-template-columns: 1fr; }
   .note-grid a { min-height: 260px; }
   .contact { padding: 72px 24px; }
